@@ -1,0 +1,11 @@
+{
+  "name": "Main.WebAssembly",
+  "short_name": "Main.WebAssembly",
+  "id": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#03173d",
+  "prefer_related_applications": false
+  ]
+}

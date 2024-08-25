@@ -16,6 +16,7 @@ If you would like to support this, please post any issues you find.
 - **Web-Based Engine**: The engine is fully web-compatible on devices with a modern web browser and aims for full immersive VR support for use with physically interactive content creation and animation as a project goal.
   - **Client-Server Architecture** *(future)*: Optionally run a server to keep things connected with a TLS encrypted WebSocket client that talks to the state management server, tracking, validating, and flagging changes in real-time.
 - **Machine Learning Integration** *(future)*: ML.NET integration is a key future objective, with some fun stuff like shape recognition and moderation happening on the server side. Pending further research as it's more complex than expected, but it's a pillar of this project and must be done. A few shotgun implementations will be seen over time.
+- **That's Cool, But Where's the Sound?** *(future)*: Don’t worry, they'll be generated at a blistering 16 bits per second. Using a variadic algorithm (fancy talk for "winging it with some parameters"), we'll get ‘close enough’ approximations of sound effects. Multiple algorithms will sync together in the same buffer, because who doesn’t love chaos... I mean, perfect harmony? :)
 
 ---
 

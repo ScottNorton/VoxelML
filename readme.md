@@ -15,8 +15,8 @@ If you would like to support this, please post any issues you find.
 - **Procedural Content Generation**: VoxelML uses a bespoke procedural content generation system driven by .NET in WebAssembly.
 - **No Serialization For Big Data**: VoxelML employs Emscripten for direct access to WebAssembly memory buffers which can be accessed with read/write access using JavaScript to get information from C# code.
 - **Web-Based Engine**: The engine is fully web-compatible on devices with a modern web browser and aims for full immersive VR support for use with physically interactive content creation and animation as a project goal.
-  - **Client-Server Architecture**: Optionally run a server to keep things connected with a TLS encrypted WebSocket client that talks to the state management server, tracking, validating, and flagging changes in real-time.
-- **Machine Learning Integration**: ML.NET integration is a key future objective, with some fun stuff like shape recognition and moderation happening on the server side. Pending further research as it's more complex than expected, but it's a pillar of this project and must be done. A few shotgun implementations will be seen over time.
+  - **Client-Server Architecture** *(future)*: Optionally run a server to keep things connected with a TLS encrypted WebSocket client that talks to the state management server, tracking, validating, and flagging changes in real-time.
+- **Machine Learning Integration** *(future)*: ML.NET integration is a key future objective, with some fun stuff like shape recognition and moderation happening on the server side. Pending further research as it's more complex than expected, but it's a pillar of this project and must be done. A few shotgun implementations will be seen over time.
 
 ---
 

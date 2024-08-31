@@ -22,14 +22,15 @@ If you would like to support this, please post any issues you find.
 
 ## Technologies Used in the Project
 
-### 1. **C# / .NET 8 WebAssembly (WASM)**
+### 1. **C# / .NET 9 WebAssembly (WASM)**
 
-- **Language**: C# 12
-- **Framework**: .NET 8
+- **Language**: C# 13
+- **Framework**: .NET 9
 - **Key Features**:
   - `System.Runtime.InteropServices.JavaScript`: Enables communication between TypeScript (JavaScript) and C# code.
   - Running in WebAssembly, some memory management and runtime performance specific to WebAssembly are included.
   - A highly flexible and hot-patchable client architecture in WebAssembly (when not compiled ahead of time) using MSIL and Expression Trees.
+  - Multithreading through .NET WASM Web Workers (dotnet-worker) for tasks on the C# side using shared memory.
 
 ### 2. **TypeScript**
 

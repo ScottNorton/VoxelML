@@ -30,7 +30,7 @@ If you would like to support this, please post any issues you find.
   - `System.Runtime.InteropServices.JavaScript`: Enables communication between TypeScript (JavaScript) and C# code.
   - Running in WebAssembly, some memory management and runtime performance specific to WebAssembly are included.
   - A highly flexible and hot-patchable client architecture in WebAssembly (when not compiled ahead of time) using MSIL and Expression Trees.
-  - Multithreading through .NET WASM Web Workers (dotnet-worker) for tasks on the C# side using shared memory.
+  - Multi-threading through .NET WASM Web Workers (dotnet-worker) - for multi-tasking on the client side using `SharedArrayBuffer` without blocking the main thread.
 
 ### 2. **TypeScript**
 
